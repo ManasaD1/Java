@@ -1,12 +1,13 @@
 
-// to count total factors
+// to count prime numbers of m and n
 
-public class test7 {
+public class test8 {
     public static void main(String[] args) {
 
-        int n = 10;
+        int n = 11;
+        int m = 20;
 
-        for (int i = 2; i <= n; i++) {
+        for (int i = n; i <= m; i++) {
             int count = 0;
 
             for (int j = 1; j <= i; j++) {

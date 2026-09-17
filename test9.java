@@ -1,12 +1,12 @@
-
-// to count total factors
-
-public class test7 {
+//to print n prime numbers
+public class test9 {
     public static void main(String[] args) {
 
         int n = 10;
+        int countPrime = 0;
+        int i = 2;
 
-        for (int i = 2; i <= n; i++) {
+        while (countPrime < n) {
             int count = 0;
 
             for (int j = 1; j <= i; j++) {
@@ -15,8 +15,11 @@ public class test7 {
             }
 
             if (count == 2) {
-                System.out.println("prime numbers:" + i);
+                System.out.println(i);
+                countPrime++;
             }
+
+            i++;
         }
     }
 }
