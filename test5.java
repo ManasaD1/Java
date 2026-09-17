@@ -1,17 +1,23 @@
-//Tables
-public class test3 {
+//to find factorial numbers
+public class test5 {
     public static void main(String[] args) {
-        int n=20;
-        int a=2;
-        int b=3;
+        int n=10;
         for(int i=1;i<=n;i++)
         {
-            if(i%a==0||i%b==0)
+            if(n%i==0)
             {
                 System.out.print(i+" ");
-            }
         }
+    }
 }
 }
+
+
+
+            
+            
+        
+
+
 
 
