@@ -1,8 +1,7 @@
 
-//print all the subarrays of the array
-import java.util.Scanner;
+import java.util.*;
 
-public class test24 {
+public class test27 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -12,18 +11,14 @@ public class test24 {
 
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
-            sc.close();
         }
 
         for (int i = 0; i < n; i++) {
-
             for (int j = i; j < n; j++) {
 
-                for (int k = i; k <= j; k++) {
-                    System.out.print(a[k] + " ");
-                }
+                int length = j - i + 1;
 
-                System.out.println();
+                System.out.println(length);
             }
         }
     }
