@@ -1,3 +1,5 @@
+
+//check palindrome
 import java.util.Scanner;
 
 public class test30 {
