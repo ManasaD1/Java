@@ -9,6 +9,7 @@ public class test35 {
             char ch = s.charAt(i);
             if (result.indexOf(ch) == -1) {
                 int count = 0;
+                
                 for (int j = 0; j < s.length(); j++) {
                     if (s.charAt(j) == ch) {
                         count++;
